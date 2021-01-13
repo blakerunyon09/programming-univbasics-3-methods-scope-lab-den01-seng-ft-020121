@@ -1,10 +1,11 @@
+$standard = "It's-a    me, Mario!"
+
 def mario
-  puts "It's-a me, Mario!"
+  puts $standard
 end
 
 def toadstool
-  status = 'Thank You Mario! But Our Princess Is In Another Castle!'
-  puts status
+  puts 'Thank You Mario! But Our Princess Is In Another Castle!'
 end
 
 def link
@@ -16,3 +17,5 @@ def all_phrases
   toadstool
   link
 end
+
+all_phrases
